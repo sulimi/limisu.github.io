@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>第二篇博客 | 苏咪的博客</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.71.0" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="第二篇博客" />
+<meta property="og:description" content="用 Hugo 搭建博客 1、Hugo是什么 为什么用Hugo   Hugo：汉译雨果。
+  是一个用Go语言实现的、世界上最快的博客生成器。
+  与JS实现的博客生成器Hexo相比，Hugo更好用。
+  2、Hugo 怎么搭建博客 2.1、安装Hugo （仅window适用） (1) Hugo官网（点这里）下载。
+(2) 解压，最好把解压文件hugo.exe放到某个X盘的 X:\Software\hugo\ 目录下 。
+(3) 把 X:\Software\hugo\ 配置到全局path上，这一步很重要哦。
+(4) 最好开启终端输入命令 hugo version 检查一下有没有成功加入path。
+2.2、开始搭建博客 首先从Hugo官网进入Quick Start查看文档。
+博客搭建步骤即可逐步按照文档说明进行：
+2.2.1 步骤1：安装Hugo 此步骤已做，直接下一步
+（后面的操作步骤都是在终端上用命令行进行，所以首先要在任意目录下新建一个空文件夹，在此文件夹内开启终端） 2.2.2 步骤2：新建一个仓库目录  根据你的GitHub名输入以下命令：   hugo new site xxx.github.io-creator 就会在当前目录下成功创建一个名为xxx.github.io-creator的文件夹，作为创建博客网站的启动器
+2.2.3 步骤3：添加至少一个博客主题  进到 xxx.github.io-creator 文件夹内操作:   cd xxx.github.io-creator 得先把 启动器 变成一个本地仓库才能去GitHub拉取东西存储：   git init 从Github下载主题并将其添加到文件的theme目录中：   git submodule add https://github." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://limisu.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/" />
+<meta property="article:published_time" content="2020-05-26T00:39:31+08:00" />
+<meta property="article:modified_time" content="2020-05-26T00:39:31+08:00" />
+<meta itemprop="name" content="第二篇博客">
+<meta itemprop="description" content="用 Hugo 搭建博客 1、Hugo是什么 为什么用Hugo   Hugo：汉译雨果。
+  是一个用Go语言实现的、世界上最快的博客生成器。
+  与JS实现的博客生成器Hexo相比，Hugo更好用。
+  2、Hugo 怎么搭建博客 2.1、安装Hugo （仅window适用） (1) Hugo官网（点这里）下载。
+(2) 解压，最好把解压文件hugo.exe放到某个X盘的 X:\Software\hugo\ 目录下 。
+(3) 把 X:\Software\hugo\ 配置到全局path上，这一步很重要哦。
+(4) 最好开启终端输入命令 hugo version 检查一下有没有成功加入path。
+2.2、开始搭建博客 首先从Hugo官网进入Quick Start查看文档。
+博客搭建步骤即可逐步按照文档说明进行：
+2.2.1 步骤1：安装Hugo 此步骤已做，直接下一步
+（后面的操作步骤都是在终端上用命令行进行，所以首先要在任意目录下新建一个空文件夹，在此文件夹内开启终端） 2.2.2 步骤2：新建一个仓库目录  根据你的GitHub名输入以下命令：   hugo new site xxx.github.io-creator 就会在当前目录下成功创建一个名为xxx.github.io-creator的文件夹，作为创建博客网站的启动器
+2.2.3 步骤3：添加至少一个博客主题  进到 xxx.github.io-creator 文件夹内操作:   cd xxx.github.io-creator 得先把 启动器 变成一个本地仓库才能去GitHub拉取东西存储：   git init 从Github下载主题并将其添加到文件的theme目录中：   git submodule add https://github.">
+<meta itemprop="datePublished" content="2020-05-26T00:39:31&#43;08:00" />
+<meta itemprop="dateModified" content="2020-05-26T00:39:31&#43;08:00" />
+<meta itemprop="wordCount" content="280">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="第二篇博客"/>
+<meta name="twitter:description" content="用 Hugo 搭建博客 1、Hugo是什么 为什么用Hugo   Hugo：汉译雨果。
+  是一个用Go语言实现的、世界上最快的博客生成器。
+  与JS实现的博客生成器Hexo相比，Hugo更好用。
+  2、Hugo 怎么搭建博客 2.1、安装Hugo （仅window适用） (1) Hugo官网（点这里）下载。
+(2) 解压，最好把解压文件hugo.exe放到某个X盘的 X:\Software\hugo\ 目录下 。
+(3) 把 X:\Software\hugo\ 配置到全局path上，这一步很重要哦。
+(4) 最好开启终端输入命令 hugo version 检查一下有没有成功加入path。
+2.2、开始搭建博客 首先从Hugo官网进入Quick Start查看文档。
+博客搭建步骤即可逐步按照文档说明进行：
+2.2.1 步骤1：安装Hugo 此步骤已做，直接下一步
+（后面的操作步骤都是在终端上用命令行进行，所以首先要在任意目录下新建一个空文件夹，在此文件夹内开启终端） 2.2.2 步骤2：新建一个仓库目录  根据你的GitHub名输入以下命令：   hugo new site xxx.github.io-creator 就会在当前目录下成功创建一个名为xxx.github.io-creator的文件夹，作为创建博客网站的启动器
+2.2.3 步骤3：添加至少一个博客主题  进到 xxx.github.io-creator 文件夹内操作:   cd xxx.github.io-creator 得先把 启动器 变成一个本地仓库才能去GitHub拉取东西存储：   git init 从Github下载主题并将其添加到文件的theme目录中：   git submodule add https://github."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://limisu.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      苏咪的博客
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=http://limisu.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=http://limisu.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/&amp;text=%e7%ac%ac%e4%ba%8c%e7%af%87%e5%8d%9a%e5%ae%a2" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://limisu.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/&amp;title=%e7%ac%ac%e4%ba%8c%e7%af%87%e5%8d%9a%e5%ae%a2" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">第二篇博客</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-05-26T00:39:31&#43;08:00">May 26, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="用-hugo-搭建博客">用 Hugo 搭建博客</h1>
+<h3 id="1hugo是什么--为什么用hugo">1、Hugo是什么  为什么用Hugo</h3>
+<ul>
+<li>
+<p>Hugo：汉译雨果。</p>
+</li>
+<li>
+<p>是一个用Go语言实现的、世界上最快的博客生成器。</p>
+</li>
+<li>
+<p>与JS实现的博客生成器Hexo相比，Hugo更好用。</p>
+</li>
+</ul>
+<h3 id="2hugo-怎么搭建博客">2、Hugo 怎么搭建博客</h3>
+<h4 id="21安装hugo-仅window适用">2.1、安装Hugo （仅window适用）</h4>
+<p>(1) <a href="https://gohugo.io/">Hugo官网（点这里）</a>下载。</p>
+<p>(2) 解压，最好把解压文件<code>hugo.exe</code>放到某个X盘的  <code>X:\Software\hugo\</code> 目录下 。</p>
+<p>(3) 把 <code>X:\Software\hugo\</code> 配置到全局path上，这一步很重要哦。</p>
+<p>(4) 最好开启终端输入命令 <code>hugo version </code>检查一下有没有成功加入path。</p>
+<p><img src="https://i.loli.net/2020/05/25/7fRhsAw1Hr32iTZ.png" alt="image.png"></p>
+<h4 id="22开始搭建博客">2.2、开始搭建博客</h4>
+<p>首先从Hugo官网进入<a href="https://gohugo.io/">Quick Start</a>查看文档。</p>
+<p><img src="https://i.loli.net/2020/05/25/kX72tIFGxNDda1g.png" alt="image.png"></p>
+<p>博客搭建步骤即可逐步按照文档说明进行：</p>
+<h4 id="221--步骤1安装hugo">2.2.1  步骤1：安装Hugo</h4>
+<p>此步骤已做，直接下一步</p>
+<h5 id="后面的操作步骤都是在终端上用命令行进行所以首先要在任意目录下新建一个空文件夹在此文件夹内开启终端">（<em><strong>后面的操作步骤都是在终端上用命令行进行，所以首先要在任意目录下新建一个空文件夹，在此文件夹内开启终端</strong></em>）</h5>
+<h4 id="222--步骤2新建一个仓库目录">2.2.2  步骤2：新建一个仓库目录</h4>
+<ol>
+<li>根据你的GitHub名输入以下命令：</li>
+</ol>
+<pre><code>
+
+hugo new site xxx.github.io-creator
+
+</code></pre><p>就会在当前目录下成功创建一个名为<code>xxx.github.io-creator</code>的文件夹，作为创建博客网站的<code>启动器</code></p>
+<p><img src="https://i.loli.net/2020/05/25/UDCjzg8Bxd2O9oL.png" alt="image.png"></p>
+<h4 id="223--步骤3添加至少一个博客主题">2.2.3  步骤3：添加至少一个博客主题</h4>
+<ol>
+<li>进到 <code>xxx.github.io-creator</code> 文件夹内操作:</li>
+</ol>
+<pre><code>
+
+  cd xxx.github.io-creator
+
+</code></pre><ol start="2">
+<li>得先把 <code>启动器</code> 变成一个本地仓库才能去GitHub拉取东西存储：</li>
+</ol>
+<pre><code>
+
+  git init
+
+</code></pre><ol start="3">
+<li>从Github下载主题并将其添加到文件的theme目录中：</li>
+</ol>
+<pre><code>
+
+  git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+
+</code></pre><ol start="4">
+<li>然后，将主题添加到站点配置中：</li>
+</ol>
+<pre><code>
+
+   echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml
+
+
+</code></pre><h4 id="224---步骤4添加一些内容">2.2.4   步骤4：添加一些内容</h4>
+<ol>
+<li>新建第一篇博客文件：</li>
+</ol>
+<pre><code>
+
+  hugo new posts/开博大吉.md
+
+
+</code></pre><ol start="2">
+<li>创建完第一篇博客文件，用编辑器打开即可编辑添加博客内容，如我这里是用code打开</li>
+</ol>
+<pre><code>
+
+  code 开博大吉.md
+
+</code></pre><p>或者在电脑盘中直接右键你的<code>xxx.github.io-creator</code>找到文件夹下的 <code>content \ posts</code> 文件下有  开博 大吉 .md （因为我这在命令行中打开是一个空白文件）
+打开的开博大吉.md文件中默认应该有以下内容：</p>
+<pre><code>
+
+---
+title: &quot;开博大吉&quot;
+date: 2020-05-25T22:20:12+08:00
+draft: true
+---
+
+
+</code></pre><p>里面的<code>draft: true</code>表示此篇博客处于草稿状态
+不能把里面带有的默认内容删掉，只能在下面直接编辑。
+当编辑好博客内容后，把默认内容的<code>draft: true</code>草稿状态改成<code>draft: false</code>发布状态</p>
+<p><img src="https://i.loli.net/2020/05/25/p7hbJoMWiKx1eym.png" alt="image.png"></p>
+<h4 id="225--步骤5启动hugo服务器">2.2.5  步骤5：启动Hugo服务器</h4>
+<p>启动启动Hugo服务器，这时候你就可以通过成功启动的Hugo服务器中提供的url地址访问到你的第一篇博客。</p>
+<p>最好让开Hugo服务器的终端页面一直开着，也就是Hugo服务器一直开着才能保证你的博客在网页中一直显示，要输入其他命令请开另一个终端（同一个文件目录下可以开几个终端）</p>
+<pre><code>
+
+hugo server -D
+
+</code></pre><p><img src="https://i.loli.net/2020/05/25/65jTVQUKMWmILtg.png" alt="image.png"></p>
+<p><img src="https://i.loli.net/2020/05/25/qyKO28cmu51GDQx.png" alt="image.png"></p>
+<h4 id="226--步骤6自定义主题">2.2.6  步骤6：自定义主题</h4>
+<p>自定义你的博客主页的名字和背景主题</p>
+<pre><code>找到打开config.toml文件
+
+
+code config.toml
+
+
+</code></pre><p><code>config.toml</code>原内容：</p>
+<pre><code>
+
+baseURL = &quot;http://example.org/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;My New Hugo Site&quot;
+theme = &quot;ananke&quot;
+
+</code></pre><p>把<code>baseURL = &quot;http://example.org/&quot;</code>改成你的GitHub Pages的地址如<code>baseURL = &quot;http://xxx.github.io/&quot;</code>；
+把<code>languageCode = &quot;en-us&quot;</code>改成简体汉字<code>languageCode = &quot;zh-Hans&quot;</code>;
+把<code>title = &quot;My New Hugo Site&quot;</code>替换为你喜欢的博客主页名字；
+剩下的<code>theme = &quot;ananke&quot;</code>即是背景主题的设置</p>
+<p><img src="https://i.loli.net/2020/05/25/lvLNMVQmyKF4t6d.png" alt="image.png"></p>
+<p>可以看见之前在网页中打开的网页博客就变成了你想要的样子：</p>
+<p><img src="https://i.loli.net/2020/05/25/MOCb3hUKvwj8Vit.png" alt="image.png"></p>
+<h4 id="227-步骤7建立静态页面">2.2.7 步骤7：建立静态页面</h4>
+<ul>
+<li>新建另一个终端进到 <code>xxx.github.io-creator</code> 目录下部署一个<code>public</code>目录</li>
+</ul>
+<p><code>xxx.github.io-creator</code>是启动器仓库，public才是你博客网站真正的网站仓库，在这个仓库里部署你的网站数据</p>
+<ol>
+<li><code>xxx.github.io-creator</code> 下部署<code>public</code>目录
+<img src="https://i.loli.net/2020/05/25/b7q58JRD6tFNjUh.png" alt="image.png"></li>
+</ol>
+<p><code>xxx.github.io-creator</code> 就生成了一个<code>public</code>目录：
+<img src="https://i.loli.net/2020/05/25/nYtoRCklwxIZsfd.png" alt="image.png"></p>
+<ol start="2">
+<li>将public仓库（网站）部署到GitHub上</li>
+</ol>
+<ul>
+<li>在<code>xxx.github.io-creator</code>目录下新建一个<code>.gitignore</code>文件把<code>public</code>放进去标识<code>public</code>不参与<code>xxx.github.io-creator</code>仓库的部署，因为它自己要做一个独立的仓库</li>
+</ul>
+<p><img src="https://i.loli.net/2020/05/25/DbF5iChfyQ7smzZ.png" alt="image.png"></p>
+<pre><code>(1) 部署本地仓库
+进到 public目录
+cd public
+
+git init
+git add .
+git commit -v / git commit -m &quot;xxx&quot;
+
+</code></pre><p><img src="https://i.loli.net/2020/05/25/eY7kQiuh2tVyFxI.png" alt="image.png"></p>
+<pre><code>(2) 部署远程仓库
+
+* GitHub上新建一个名为 “GitHub名小写.github.io” 的仓库
+* 将本地public仓库上传到这个新建的仓库
+
+  git remote add origin git@gxxxx
+  git push -u origin master
+ 
+(3) 刷新新建的GitHub仓库，配置 GitHub Pages,就可以通过GitHub Pages 给的网址去访问到你的博客
+
+</code></pre><ul>
+<li>到这里博客搭建就已经完成了，但我们还要谨慎一些，备份一下创建public的<code>creator启动仓库</code>，如果<code>creator启动仓库</code>代码被删了，public是生成不了的，两者是依赖又独立的关系</li>
+</ul>
+<ol>
+<li>备份<code>xxx.github.io-creator启动器</code></li>
+</ol>
+<pre><code>(1) 部署本地仓库
+cd xxx.github.io-creator
+git add .
+git commit -v / git commit -m &quot;xxx&quot;
+
+</code></pre><pre><code>(2) 部署远程仓库
+
+* GitHub上新建一个名为 “xxx.github.io-creator” 的仓库
+* 将本地xxx.github.io-creator仓库上传到这个新建的仓库
+
+   git remote add origin git@gxxxx
+   git push -u origin master
+ 
+
+</code></pre><h4 id="3关于博客更新">3、关于博客更新</h4>
+<ol>
+<li>在 xxx.github.io-creator 目录（注意确保自己不在 public 目录）里运行</li>
+</ol>
+<pre><code>  hugo new posts/第二篇博客.md
+
+</code></pre><p>运行</p>
+<pre><code>
+code posts/第二篇博客.md 
+
+</code></pre><p>对文件进行编辑，注意不要把文件原本的内容给删了，直接在后面另起一行写新内容。
+也可以直接在资源管理器中打开，命令行打开总是出错咧</p>
+<p>运行</p>
+<pre><code> hugo -D
+</code></pre><p>得到新的 public 目录</p>
+<p>进入 public 目录，执行一下操作</p>
+<pre><code>git add . 
+</code></pre><p>注意有一个点</p>
+<pre><code>git commit -m update
+git push -f 
+</code></pre><p>其中 -f 是强制上传的意思
+等待几分钟后，你的博客就会出现第二篇文章了！</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://limisu.github.io/" >
+    &copy;  苏咪的博客 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
