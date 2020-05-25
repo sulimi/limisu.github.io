@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 苏咪的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Tue, 26 May 2020 00:39:31 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2020 01:09:57 +0800</lastBuildDate>
     
 	<atom:link href="http://limisu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title>第二篇博客</title>
       <link>http://limisu.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Tue, 26 May 2020 00:39:31 +0800</pubDate>
+      <pubDate>Tue, 26 May 2020 01:09:57 +0800</pubDate>
       
       <guid>http://limisu.github.io/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>用 Hugo 搭建博客 1、Hugo是什么 为什么用Hugo   Hugo：汉译雨果。
+      <description>title: &amp;ldquo;第二篇博客&amp;rdquo; date: 2020-05-26T00:39:31+08:00 draft: false 用 Hugo 搭建博客 1、Hugo是什么 为什么用Hugo   Hugo：汉译雨果。
   是一个用Go语言实现的、世界上最快的博客生成器。
   与JS实现的博客生成器Hexo相比，Hugo更好用。
   2、Hugo 怎么搭建博客 2.1、安装Hugo （仅window适用） (1) Hugo官网（点这里）下载。
@@ -28,7 +28,7 @@
 博客搭建步骤即可逐步按照文档说明进行：
 2.2.1 步骤1：安装Hugo 此步骤已做，直接下一步
 （后面的操作步骤都是在终端上用命令行进行，所以首先要在任意目录下新建一个空文件夹，在此文件夹内开启终端） 2.2.2 步骤2：新建一个仓库目录  根据你的GitHub名输入以下命令：   hugo new site xxx.github.io-creator 就会在当前目录下成功创建一个名为xxx.github.io-creator的文件夹，作为创建博客网站的启动器
-2.2.3 步骤3：添加至少一个博客主题  进到 xxx.github.io-creator 文件夹内操作:   cd xxx.github.io-creator 得先把 启动器 变成一个本地仓库才能去GitHub拉取东西存储：   git init 从Github下载主题并将其添加到文件的theme目录中：   git submodule add https://github.</description>
+2.2.3 步骤3：添加至少一个博客主题  进到 xxx.github.io-creator 文件夹内操作:   cd xxx.</description>
     </item>
     
     <item>
